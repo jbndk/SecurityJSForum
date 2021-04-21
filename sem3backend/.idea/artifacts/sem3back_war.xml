@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sem3back:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sem3back</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sem3back-1.0.1.war">
+      <element id="artifact" artifact-name="sem3back:war exploded" />
+    </root>
+  </artifact>
+</component>
